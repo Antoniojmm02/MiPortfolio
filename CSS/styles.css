@@ -15,7 +15,9 @@ body{
     height: 2100000000px;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 
 /* Navegacion */
@@ -23,7 +25,6 @@ h2 span{
     font-size: 2.8rem;
 }
 .nav-bg{
-    background-color: white;
 }
 
 
@@ -87,4 +88,41 @@ h2 span{
 
 .off-screen-menu.active{
     top: 0;
+}
+
+
+
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    text-align: center;
+    border: 5px solid red;
+}
+.navegacion-principal{
+    display: none;
+}
+
+@media(min-width:768px){
+    .navegacion-principal{
+        display: flex;
+        flex-direction: row;
+        text-align:center;
+        justify-content: space-around;
+    }
+    .ham-menu{
+        display: none;
+    }
+}
+
+.navegacion-principal a{
+    font-weight: bold;
+    color: var(--blanco);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
