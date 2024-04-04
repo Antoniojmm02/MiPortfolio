@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-color: blueviolet;
+    background-image: linear-gradient(to left bottom, #30002c, #42003b, #54014b, #68015b, #7c006c);
     height: 2100000000px;
 }
 
@@ -51,7 +51,7 @@ h2 span{
 .ham-menu span{
     height: 5px;
     width: 100%;
-    background-color: #6F86FF;
+    background: linear-gradient(45deg, rgba(251,249,255,1) 40%, rgba(222,151,232,0.9878326330532213) 100%);
     border-radius:25px ;
     position: absolute;
     top: 50%;   
@@ -68,6 +68,7 @@ h2 span{
 .ham-menu.active span:nth-child(1){
     top: 50%;
     transform: translate(-50%,-50%)rotate(45deg);
+    background:  linear-gradient(to left bottom, #30002c, #42003b, #54014b, #68015b, #7c006c);
 }
 .ham-menu.active span:nth-child(2){
     opacity: 0;
@@ -75,9 +76,11 @@ h2 span{
 .ham-menu.active span:nth-child(3){
     top: 50%;
     transform: translate(-50%,-50%)rotate(-45deg);
+    background:  linear-gradient(to left bottom, #30002c, #42003b, #54014b, #68015b, #7c006c);
 }
 .off-screen-menu{
-    background-color: whitesmoke;
+    background: rgb(251,249,255);
+    background: linear-gradient(45deg, rgba(251,249,255,1) 40%, rgba(222,151,232,0.9878326330532213) 100%);
     height: 100%;
     width: 100%;
     max-width: 450px;
@@ -88,6 +91,12 @@ h2 span{
 
 .off-screen-menu.active{
     top: 0;
+}
+.navegacionM{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50%;
 }
 
 
