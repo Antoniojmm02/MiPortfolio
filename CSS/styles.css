@@ -10,14 +10,20 @@ html{
     box-sizing: inherit;
 }
 
+
 body{
     background-image: linear-gradient(to left bottom, #30002c, #42003b, #54014b, #68015b, #7c006c);
     height: 2100000000px;
 }
 
+
+
 a{
     text-decoration: none;
 }
+
+
+
 
 
 /* Navegacion */
@@ -103,11 +109,20 @@ h2 span{
 
 
 .contenedor{
-    max-width: 120rem;
     margin: 0 auto;
     text-align: center;
     border: 5px solid red;
+    background: rgb(251,249,255);
+    background: linear-gradient(45deg, rgba(251,249,255,1) 40%, rgba(222,151,232,0.9878326330532213) 100%);
 }
+.contenedor a{
+    font-size: 20px;
+}
+
+
+
+
+
 .navegacion-principal{
     display: none;
 }
