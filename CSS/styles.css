@@ -154,10 +154,15 @@ a{
 .boton a{
     font-weight: bold;
     font-size: smaller;
-    color: gray;
-    padding: 0.6rem;
+    color: white;
+    padding: 1.5rem;
     text-transform: uppercase;
-
+    background: rgb(60, 24, 77);
+    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.53);
+}
+.boton a:hover{
+    text-decoration: underline;
+    color: white
 }
 
 
@@ -178,6 +183,7 @@ a{
 }
 .inicio h3{
     font-size: 36px;
+    color: whitesmoke;
 }
 .skills{
     display: flex;
@@ -185,6 +191,7 @@ a{
     align-items: center;
     justify-content: center;
     text-align: center;
+    color: rgba(255,255,255,.7);
 }
 .skills h2{
     font-size: 30px;
@@ -218,12 +225,24 @@ a{
     height: 200px;
     width: 300px;
 }
+
+
+
+
+
+
+
+
+
 .habilidad{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    border-radius: 6%;
+    background: linear-gradient(45deg, rgba(251,249,255,1) 40%, rgba(222,151,232,0.9878326330532213) 100%);
+    margin: 10px;
+    color: black;
 }
 .habilidad h3{
     font-size: 30px;
