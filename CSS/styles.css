@@ -12,8 +12,8 @@ html{
 
 
 body{
-    background-image: linear-gradient(to left bottom, #30002c, #42003b, #54014b, #68015b, #7c006c);
-    height: 2100000000px;
+    background: rgb(154,90,42);
+    background: linear-gradient(47deg, rgba(154,90,42,1) 0%, rgba(67,7,84,1) 76%, rgba(46,13,61,1) 100%);
 }
 
 
@@ -27,13 +27,6 @@ a{
 
 
 /* Navegacion */
-h2 span{
-    font-size: 2.8rem;
-}
-.nav-bg{
-}
-
-
 
 /* Version movil*/
 .hambur{
@@ -57,7 +50,7 @@ h2 span{
 .ham-menu span{
     height: 5px;
     width: 100%;
-    background: linear-gradient(45deg, rgba(251,249,255,1) 40%, rgba(222,151,232,0.9878326330532213) 100%);
+    background: linear-gradient(45deg, rgba(251,249,255,0.9) 40%, rgba(222,151,232,0.9878326330532213) 100%);
     border-radius:25px ;
     position: absolute;
     top: 50%;   
@@ -91,8 +84,8 @@ h2 span{
     width: 100%;
     max-width: 450px;
     position: fixed;
-    top: -100vh;
-    transition: .4s ease;
+    top: -150vh;
+    transition: .5s ease;
 }
 
 .off-screen-menu.active{
@@ -104,6 +97,7 @@ h2 span{
     align-items: center;
     margin-top: 50%;
 }
+/*Fin navegacion movil*/
 
 
 
@@ -118,7 +112,6 @@ h2 span{
 .contenedor a{
     font-size: 20px;
 }
-
 
 
 
@@ -141,18 +134,36 @@ h2 span{
 
 .navegacion-principal a{
     font-weight: bold;
-    color: var(--blanco);
+    color:;
     text-decoration: none;
     padding: 1rem;
 }
 
 .navegacion-principal a:hover{
-    background-color: var(--primario);
-    color: var(--oscuro);
+
+}
+/*Fin navegacion*/
+
+
+
+
+
+
+
+/*boton*/
+.boton a{
+    font-weight: bold;
+    font-size: smaller;
+    color: gray;
+    padding: 0.6rem;
+    text-transform: uppercase;
+
 }
 
 
 
+
+/*Habilidades*/
 .inicio{
     display: flex;
     flex-direction: column;
@@ -163,6 +174,7 @@ h2 span{
 .inicio p{
     color: rgba(255,255,255,.7);
     font-size:16px;
+    margin: 1rem;
 }
 .inicio h3{
     font-size: 36px;
@@ -177,6 +189,11 @@ h2 span{
 .skills h2{
     font-size: 30px;
 }
+
+
+
+
+/*imagenes*/
 .imagenJava{
     background-image: url(../img/java.png);
     background-position: center;
@@ -184,5 +201,30 @@ h2 span{
     background-repeat: no-repeat;
     height: 200px;
     width: 300px;
+}
+.imagenHTML{
+    background-image: url(../img/html.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+.imagenCSS{
+    background-image: url(../img/css-3.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 300px;
+}
+.habilidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+}
+.habilidad h3{
+    font-size: 30px;
 }
