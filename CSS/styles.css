@@ -330,7 +330,6 @@ header{
 .formulario fieldset{
     border: none;
     color: whitesmoke;
-    opacity: 0.9;
 }
 .formulario legend{
     text-align: center;
@@ -369,9 +368,15 @@ header{
     height: 20rem;
 }
 .campo ::placeholder{
-    color: whitesmoke;
-    opacity: 0.8;
+    color: rgba(245, 245, 245, 0.637);
     font-size: 13px;
+}
+.campo:nth-child(5){
+    display: flex; 
+    justify-content: flex-end;
+}
+.campo .boton{
+    margin-top: 10px;
 }
 @media(min-width:768px){
     .campo label{
@@ -390,5 +395,9 @@ header{
     }
     .campo:nth-child(5){
         grid-column: 2/3;
+        grid-column-end: auto;
+    }
+    .campo .boton{
+        width: 100%;
     }
 }
