@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Antonio J. Mendoza Machuca</h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="./index.html">Inicio</a>
+            <a href="./Contacto.html">Contactar</a>
+            <a href="#">Mis Proyectos</a>
+        </nav>        
+    </div>
+    <div class="off-screen-menu">
+        <div class="navegacionM">
+            <h3><a href="./index.html">Inicio</a></h3>
+            <h3><a href="./Contacto.html">Contacto</a></h3>
+            <h3><a href="#">Proyectos</a></h3>
+        </div>
+    </div>
+    <div class="hambur">
+        <nav>
+            <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </div>
+    <main>
+        <div class="inicio">
+            <p>Si estas interesado en cualquiera de mis servicios</p>
+        </div>
+        <section>
+            <form id="formulario" class="formulario">
+                <fieldset>
+                    <legend>Contactactame llenando los  siguientes campos:</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="imput-text" id="name" type="text" placeholder="Tu nombre">
+                        </div>                    
+                        <div class="campo">
+                            <label>Teléfono</label>
+                            <input class="imput-text" id="telefono" type="tel" placeholder="Tu telefono">
+                        </div>
+                        <div class="campo">
+                            <label> Correo</label>
+                            <input class="imput-text" id="correo" type="email" placeholder="Tu email">
+                        </div>
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="imput-text"></textarea>
+                        </div>
+                        <div class="campo">
+                            <button class="boton" type="submit" value="enviar">ENVIAR</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <script src="./JS/hamburguer.js"></script>
+</body>
+</html>
