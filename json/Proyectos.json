@@ -1,15 +1,37 @@
-[
-    {
-        "img":"FirstWorkM.png",
-        "titulo":"Primer Trabajo"
-    },{
-        "img":"TrabajoMovile1.png",
-        "titulo":"Segundo Trabajo"
-    },{
-        "img":"TrabajoMovile2.png",
-        "titulo":"Tercer Trabajo"
-    },{
-        "img":"TrabajoMovile3.png",
-        "titulo":"Tercer Trabajo"
-    }
-]
+{
+    "titulo" : "Proyectos",
+    "proyectos" : [
+      {
+        "name" : "Primer Trabajo",
+        "imagen": "./img/FirstWorkM.png",
+        "lenguajes" : [
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name" : "Segundo Trabajo",
+        "imagen": "./img/TrabajoMovile1.png",
+        "lenguajes" : [
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name" : "Tercer Trabajo",
+        "imagen": "./img/TrabajoMovile2.png",
+        "lenguajes" : [
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "name" : "Cuarto Trabajo",
+        "imagen": "./img/TrabajoMovile3.png",
+        "lenguajes" : [
+          "HTML",
+          "CSS"
+        ]
+      }
+    ]
+  }
