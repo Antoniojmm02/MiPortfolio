@@ -11,10 +11,11 @@
       },
       {
         "name" : "Segundo Trabajo",
-        "imagen": "./img/TrabajoMovile1.png",
+        "imagen": "./img/TrabajoMovile3.png",
         "lenguajes" : [
           "HTML",
-          "CSS"
+          "CSS",
+          "JavaScript"
         ]
       },
       {
@@ -27,7 +28,7 @@
       },
       {
         "name" : "Cuarto Trabajo",
-        "imagen": "./img/TrabajoMovile3.png",
+        "imagen": "./img/TrabajoMovile1.png",
         "lenguajes" : [
           "HTML",
           "CSS"
