@@ -435,6 +435,15 @@ header{
     }
 }
 
+.error{
+    color: white;
+    font-size: 2rem;
+}
+.ok{
+    color: white;
+    font-size: 2rem;
+}
+
 
 
 

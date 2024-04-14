@@ -1,21 +1,24 @@
 
-const formulario = document.querySelector(".formulario");
+const formulario = document.querySelector("#formulario");
 
 
 
 const datos = {
     name:'',
-    email:'',
-    mensaje:''
+    telefono:'',
+    correo:'',
+    mensaje:'',
+    
 }
 const name = document.querySelector('#name');
-const email = document.querySelector('#correo');
+const telefono =document.querySelector('#telefono');
+const correo = document.querySelector('#correo');
 const mensaje = document.querySelector('#mensaje');
 
 
-
 name.addEventListener('input',leerTexto)
-email.addEventListener('input',leerTexto)
+telefono.addEventListener('input',leerTexto)
+correo.addEventListener('input',leerTexto)
 mensaje.addEventListener('input',leerTexto)
 
 function leerTexto (e){
@@ -35,13 +38,14 @@ formulario.addEventListener('submit',function(e){
 
     // Comprobar que no haya campos de datos vacios
     const {name,
-    email,
-    mensaje} = datos;
+    correo,
+    mensaje,
+    telefono} = datos;
 
 
 
     // Si un campo esta vacio, mostrar error
-if(name === "" || email === "" || mensaje === ""){
+if(name === "" || correo === "" || mensaje === ""||telefono===""){
     // const hayError= true;
     // mostrarError("Todos los campos son obligatorios");
     mensajeEnviar("Todos los campos son obligatorios", 'error')
